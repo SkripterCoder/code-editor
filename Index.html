@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/mode/htmlmixed/htmlmixed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/mode/css/css.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/mode/javascript/javascript.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/theme/dracula.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE IDE!</title>
+</head>
+<body>
+    <div class="editor-container">
+        <!-- html section -->
+        <div class="editor-section">
+            <h2>HTML</h2>
+            <textarea id="html-editor" ></textarea>
+        </div>
+
+        <!-- css section -->
+        <div class="editor-section">
+            <h2>CSS</h2>
+            <textarea id="css-editor" ></textarea>
+        </div>
+
+        <!-- js section -->
+        <div class="editor-section">
+            <h2>JS</h2>
+            <textarea id="js-editor" ></textarea>
+        </div>
+
+       
+    </div>
+ <!-- Output -->
+        <div class="output">
+            <button id="run-button">RUN</button>
+            <div id="output-area"></div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
